@@ -207,7 +207,7 @@ span::after{
 }
 
 .game{
-
+    margin-bottom: 20px;
 }
 .game h2{
     font-weight: 700;
@@ -224,127 +224,87 @@ span::after{
     text-align: center;
     font-size: 26px;
     text-transform: uppercase;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+
 }
 .game_caption{
-    text-indent: 55px;
+    text-indent: 70px;;
     text-align: justify;
     font-size: 20px;
-    display: none;
-    opacity: 0;
-    margin-bottom: 40px;
-}
-.game_caption:target{
-    display: block;
-    opacity: 1;
-}
-.game{
-    max-width: 100%;
-    height: 960px;
-    
-}
-.game_block{
-    outline: 2px solid #4d4f57cd;
-    padding: 20px;
-    height: 750px;
-}
-.game_block_1{
-    margin: 0 auto;
-    width: 30px;
-    height: 30px;
-    background-color: cornflowerblue;
-}
-.game_block_2,.game_block_3,.game_block_4,.game_block_5,.game_block_6,.game_block_7,.game_block_8,.game_block_9,.game_block_10{
-    background-color: cornflowerblue;
     visibility: hidden;
     opacity: 0;
+    margin-bottom: 20px;
+    color:#424551
 }
-.game_block_2{
+.game_name:hover .game_caption{
+    visibility: visible;
+    opacity: 1;
+}
+.game_block{
+    width: 100%;
+    height: 800px;
+    border: 2px solid grey;
+    padding: 20px;
+}
+.game_hoverblock_1 {
     width: 30px;
-    height: 80px;
+    height: 30px;
+    
     margin: 0 auto;
 }
-.game_block_3{
-    width: 450px;
-    height: 30px;
-    margin: 0 580px;
+.game_block_1,.game_block_2,.game_block_3,.game_block_4,.game_block_5,.game_block_6,.game_block_7,.game_block_8{
+    width: 100%;
+    height: 100%;
+    background-color: cornflowerblue;
 }
-.game_block_4{
+.game_hoverblock_2 {
     width: 30px;
-    height: 90px;
-    margin: 0 1000px;
+    height: 90px; 
+    margin: 0 auto;
 }
-.game_block_5{
-    width: 800px;
-    height: 30px;
-    margin: 0 230px;
+
+.game_hoverblock_3 {
+    width: 400px;
+    height: 30px; 
+    margin: 0 578px;
 }
-.game_block_6{
-    width: 20px;
-    height: 160px;
-    margin: 0 230px;
+
+.game_hoverblock_4 {
+    width: 30px;
+    height: 150px; 
+    margin: 0 948px;
 }
-.game_block_7{
-    width: 150px;
-    height: 30px;
-    margin: 0 230px;
+
+.game_hoverblock_5 {
+    width: 700px;
+    height: 25px; 
+    margin: 0 278px;
 }
-.game_block_8{
-    width: 20px;
-    height: 80px;
-    margin: 0 360px;
+
+.game_hoverblock_6 {
+    width: 30px;
+    height: 150px; 
+    margin: 0 278px;
 }
-.game_block_9{
-    width: 320px;
-    height: 25px;
-    margin: 0 360px;
+.game_hoverblock_7 {
+    width: 400px;
+    height: 23px; 
+    margin: 0 278px;
 }
-.game_block_10{
-    width: 20px;
-    height: 80px;
-    margin: 0 660px;
+.game_hoverblock_8 {
+    width: 23px;
+    height: 90px; 
+    margin: 0 655px;
 }
-.game_block_image{
-    margin: 500px 0 0 635px;
-    padding: 10px;
+.game_image{
+    margin: 20px 0 0 635px;
+    width: 70px;
 }
-.game_block_image img{
-    width: 60px;
+.game_image img{
     max-width: 100%;
 }
-.game_block_1:hover .game_block_2{
-    visibility: visible;
+
+.game_hoverblock_1:hover .game_block_2{
     opacity: 1;
-}
-.game_block_2:hover .game_block_3{
     visibility: visible;
-    opacity: 1;
-}
-.game_block_3:hover .game_block_4{
-    visibility: visible;
-    opacity: 1;
-}
-.game_block_4:hover .game_block_5{
-    visibility: visible;
-    opacity: 1;
-}
-.game_block_5:hover .game_block_6{
-    visibility: visible;
-    opacity: 1;
-}
-.game_block_6:hover .game_block_7{
-    visibility: visible;
-    opacity: 1;
-}
-.game_block_7:hover .game_block_8{
-    visibility: visible;
-    opacity: 1;
-}
-.game_block_8:hover .game_block_9{
-    visibility: visible;
-    opacity: 1;
-}
-.game_block_9:hover .game_block_10{
-    visibility: visible;
-    opacity: 1;
 }
